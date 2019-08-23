@@ -1,0 +1,55 @@
+ body {
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: normal;
+	font-size: 13px;
+	color: #333;
+}
+
+a.well:before {
+    content: "\f015";
+    color: black;
+    float: left;
+    font-family: FontAwesome;
+    font-size: 18.07px;
+    line-height: 0.9;
+    margin-right: 7.8px;
+    margin-top: 2px;
+}
+
+.well:before {
+	font-family: FontAwesome;
+    content: "\f015";
+    color: black;
+    float: left;
+    font-size: 18.07px;
+    line-height: 0.9;
+    margin-right: 7.8px;
+    margin-top: 2px;
+}
+.well {
+    font-size: 12.35px;
+    line-height: 17.03px;
+    font-weight: 400;
+	color: #000;
+	letter-spacing: .03em}
+a.language-link {
+	font-size: 12.35px;
+	font-weight: 400;
+	line-height: 17.03px;
+	letter-spacing: .03em;
+	color: #000;
+	padding-right: 13px;
+}
+a.language-link.is-active {
+	font-weight: 700;
+}
+a.navbar-brand {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 45px;
+	letter-spacing: -.02em;
+	color: #4d4d4d;
+	text-transform: uppercase;
+}
